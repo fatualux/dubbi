@@ -24,15 +24,17 @@ As far as it regards dictionaries I understood the code snippets provided as exa
 
 Ho compreso in linea di massima le funzioni lambda, ma non ho capito questo esempio, nonostante mi sia guardato il metodo *sorted*:
 
-```points = [(2, 3), (1, 2), (4, 1)]
+```python
+points = [(2, 3), (1, 2), (4, 1)]
 sorted_points = sorted(points, key=lambda point: point[1])
-print(sorted_points)  # Output: [(4, 1), (1, 2), (2, 3)]```
+print(sorted_points)  # Output: [(4, 1), (1, 2), (2, 3)]
+```
 
 
 - Funzioni di alto livello e concetti programmazione funzionale.
 Degli esempi che ho messo [qui](https://fatualux.github.io/python-notes/chapters/functions/higher_order.html) non ho capito questo:
 
-```
+```python
 def make_multiplier(factor):
     return lambda x: x * factor
 
@@ -42,7 +44,7 @@ print(double(5))  # Output: 10
 
 e questo:
 
-```
+```python
 def add(x, y):
     return x + y
 
@@ -50,6 +52,7 @@ numbers = [1, 2, 3, 4]
 total = reduce(add, numbers)
 print(total)  # Output: 10
 ```
+
 Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuare la somma di ogni elemento e non solo di due, dal momento che il numero di parametri di *add()* è 2 (sommo a + b).
 
 - Class methods:
@@ -57,5 +60,3 @@ Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuar
 *Class methods are methods that operate on the class itself rather than on instances of the class. They are defined using the @classmethod decorator and take cls as the first parameter, which represents the class.*
 
 Casi d'uso? non ne comprendo l'utilità.
-
-
