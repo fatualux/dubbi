@@ -56,6 +56,4 @@ print(total)  # Output: 10
 
 Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuare la somma di ogni elemento e non solo di due, dal momento che il numero di parametri di *add()* è 2 (sommo a + b).
 
-- Attivazione dei *virtual environments* __all'interno__ di VS Code.
- - riesco a crearli e ad attivarli dall'apposito tab, ma eseguendo il codice con F5 l'ambiente virtuale non viene attivato automaticamente.
- Occorre aprire un terminale dalla sezione "virtual environments" e lanciare il file da lì; sicuramente sbaglio qualcosa.
+- Attivazione dei *virtual environments* __all'interno__ di VS Code (riesco a crearli e ad attivarli dall'apposito tab, ma eseguendo il codice con F5 l'ambiente virtuale non viene attivato automaticamente. Occorre aprire un terminale dalla sezione "virtual environments" e lanciare il file da lì; sicuramente sbaglio qualcosa).
