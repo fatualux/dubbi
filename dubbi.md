@@ -56,3 +56,14 @@ print(total)  # Output: 10
 
 Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuare la somma di ogni elemento e non solo di due, dal momento che il numero di parametri di *add()* è 2 (sommo a + b).
 
+### 20/08/2024
+
+- Combinare due liste in un dizionario:
+
+```python
+     keys = ['name', 'age', 'city']
+     values = ['Alice', 28, 'New York']
+     combined_dict = {k: v for k, v in zip(keys, values)}
+     # combined_dict is {'name': 'Alice', 'age': 28, 'city': 'New York'}
+```
+
