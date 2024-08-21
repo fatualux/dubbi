@@ -67,3 +67,7 @@ Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuar
      # combined_dict is {'name': 'Alice', 'age': 28, 'city': 'New York'}
 ```
 
+### 21/08/2024
+
+- Non ho interiorizzato completamente la libreria *pandas*, ne ho preso nota [qui](https://fatualux.github.io/python-notes/chapters/libraries/pandas.html), e ho cercato di integrare alcuni esempi trovati nel corso.
+Penso acquisirò padronanza della stessa con l'uso.
