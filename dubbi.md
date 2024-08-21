@@ -71,3 +71,7 @@ Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuar
 
 - Non ho interiorizzato completamente la libreria *pandas*, ne ho preso nota [qui](https://fatualux.github.io/python-notes/chapters/libraries/pandas.html), e ho cercato di integrare alcuni esempi trovati nel corso.
 Penso acquisirò padronanza della stessa con l'uso.
+
+- A livello di framework per la grafica, per quanto concerne il mio lavoro, meglio che mi concentri su Tkinter o Flask?
+
+- 
