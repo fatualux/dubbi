@@ -56,7 +56,7 @@ print(total)  # Output: 10
 
 Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuare la somma di ogni elemento e non solo di due, dal momento che il numero di parametri di *add()* è 2 (sommo a + b).
 
-### 20/08/2024
+### 20/08/2024              
 
 - Combinare due liste in un dizionario:
 
@@ -73,5 +73,3 @@ Ho capito il metodo *reduce()* ma non ho capito come mai qui riesco ad effettuar
 Penso acquisirò padronanza della stessa con l'uso.
 
 - A livello di framework per la grafica, per quanto concerne il mio lavoro, meglio che mi concentri su Tkinter o Flask?
-
-- 
